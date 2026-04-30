@@ -16,7 +16,7 @@ export function CTA() {
             </p>
             <div className="mt-7">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                <a href="https://tidy-urban-pulse-core.base44.app" target="_blank" rel="noopener noreferrer">
+                <a href="https://urban-pulse-ai-copy-46d36f85.base44.app" target="_blank" rel="noopener noreferrer">
                   Open Dashboard
                   <ArrowRight className="ml-1.5 h-4 w-4" />
                 </a>
