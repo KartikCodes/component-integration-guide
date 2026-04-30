@@ -15,9 +15,11 @@ export function CTA() {
               See CityMind AI in action with a live, interactive twin of a sample district.
             </p>
             <div className="mt-7">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                Open Dashboard
-                <ArrowRight className="ml-1.5 h-4 w-4" />
+              <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+                <a href="https://tidy-urban-pulse-core.base44.app" target="_blank" rel="noopener noreferrer">
+                  Open Dashboard
+                  <ArrowRight className="ml-1.5 h-4 w-4" />
+                </a>
               </Button>
             </div>
           </div>

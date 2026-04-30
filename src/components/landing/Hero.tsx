@@ -34,9 +34,11 @@ export function Hero() {
             parking, weather, and energy.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3 animate-fade-in">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Launch Dashboard
-              <ArrowRight className="ml-1.5 h-4 w-4" />
+            <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <a href="https://tidy-urban-pulse-core.base44.app" target="_blank" rel="noopener noreferrer">
+                Launch Dashboard
+                <ArrowRight className="ml-1.5 h-4 w-4" />
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="border-border/70 bg-card/40 hover:bg-card">
               <Play className="mr-1.5 h-4 w-4" />
