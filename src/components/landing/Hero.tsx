@@ -35,7 +35,7 @@ export function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3 animate-fade-in">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="https://tidy-urban-pulse-core.base44.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://urban-pulse-ai-copy-46d36f85.base44.app" target="_blank" rel="noopener noreferrer">
                 Launch Dashboard
                 <ArrowRight className="ml-1.5 h-4 w-4" />
               </a>
