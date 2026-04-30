@@ -27,8 +27,10 @@ export function SiteNav() {
             </li>
           ))}
         </ul>
-        <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-          Launch
+        <Button asChild size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <a href="https://tidy-urban-pulse-core.base44.app" target="_blank" rel="noopener noreferrer">
+            Launch
+          </a>
         </Button>
       </nav>
     </header>
